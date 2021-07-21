@@ -1,0 +1,15 @@
+x = 3 + 1
+beginning: x = x + 1
+PRINT "Hello"
+IF x < 7 THEN beginning
+PRINT "a_is" x
+FOR a = 1 TO 7 STEP 1
+PRINT "a_is" a
+NEXT a
+PRINT "Passed_1-7"
+ending: PRINT "Old_mcDonald"
+PRINT "Had_a_farm"
+RETURN
+PRINT "skip_me_when_GOSUB"
+GOSUB ending
+PRINT "Passed_GOSUB"
